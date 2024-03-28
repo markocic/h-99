@@ -1,5 +1,6 @@
 -- Problem 09
 -- (**) Pack consecutive duplicates of list elements into sublists.
+module P09 where
 
 pack :: (Eq a) => [a] -> [[a]]
 pack x = pack' x []
