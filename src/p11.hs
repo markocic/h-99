@@ -8,7 +8,7 @@ data Encoded a = Single a | Multiple Int a
 
 encodeModified :: (Eq a) => [a] -> [Encoded a]
 
--- this is meant to piss of my friend :)
+-- this is meant to piss off my friend :)
 -- hi arsen
 encodeModified xs = [
         if length x /= 1
